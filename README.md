@@ -15,24 +15,30 @@ NumPy - Numerical operations
 Tableau Public - Data visualization and dashboard creation
 
 # Project Structure
-sf-crime-analysis/
-│
-├── data/
-│   ├── raw/
-│   │   └── Police_Department_Incident_Reports_2018_to_Present.csv
-│   └── processed/
-│       └── sf_crime_data_cleaned.csv
-│
-├── notebooks/
-│   └── data_cleaning_and_preprocessing.ipynb
-│
-├── scripts/
-│   └── data_preprocessing.py
-│
-├── dashboards/
-│   └── SF_Crime_Dashboard.twbx
-│
-└── README.md
+data/ - Data storage directory
+
+raw/ - Original datasets
+
+Police_Department_Incident_Reports_2018_to_Present.csv - Raw crime data from SF Open Data
+
+processed/ - Cleaned and processed datasets
+
+sf_crime_data_cleaned.csv - Processed data ready for visualization
+
+notebooks/ - Jupyter notebooks for exploration
+
+data_cleaning_and_preprocessing.ipynb - Data analysis and cleaning workflow
+
+scripts/ - Python scripts
+
+data_preprocessing.py - Automated data processing pipeline
+
+dashboards/ - Tableau workbooks
+
+SF_Crime_Dashboard.twbx - Complete Tableau dashboard file
+
+README.md - Project documentation
+
 Installation and Setup
 Prerequisites
 
